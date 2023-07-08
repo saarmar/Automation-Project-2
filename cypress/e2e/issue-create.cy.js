@@ -138,12 +138,12 @@ describe('Issue create', () => {
 
 
   //Assignment 2. Test2
-  it('Should create an issue and validate it successfully 2', () => {
+  it.only('Should create an issue and validate it successfully 2', () => {
 
     const issueData = {
-      title: faker.lorem.sentences(1),
+      title: faker.lorem.word(),
       type: "Task",
-      description: faker.lorem.sentences(),
+      description: faker.lorem.sentence(),
       assignee: "Baby Yoda",
       reporter: "Baby Yoda",
       priority: "Low",
