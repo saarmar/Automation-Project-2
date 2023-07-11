@@ -137,7 +137,7 @@ describe('Issue create', () => {
   });
 
 
-  //Assignment 2. Test2
+  //Assignment 2. Test 2
   it('Should create an issue and validate it successfully 2', () => {
 
     const issueData = {

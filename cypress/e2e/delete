@@ -1,0 +1,2 @@
+//asserts that issue details view is visible
+            cy.get('[data-testid="list-issue"]').contains('This is an issue of type: Task').click()
